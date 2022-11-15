@@ -1,0 +1,1765 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="Группа1" id="5">
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="6"/>
+			<ChildItems>
+				<Page name="ГруппаМониторинг" id="57">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Мониторинг</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа мониторинг</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ГруппаМониторингРасширеннаяПодсказка" id="58"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаМониторингЛево" id="196">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа мониторинг лево</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа мониторинг лево</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаМониторингЛевоРасширеннаяПодсказка" id="197"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаОбщаяИнформация" id="93">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Общая информация</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа общая информация</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>NormalSeparation</Representation>
+									<ExtendedTooltip name="ГруппаОбщаяИнформацияРасширеннаяПодсказка" id="94"/>
+									<ChildItems>
+										<LabelDecoration name="ДекорацияВерсияПлатформы" id="95">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Версия платформы</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДекорацияВерсияПлатформыКонтекстноеМеню" id="96"/>
+											<ExtendedTooltip name="ДекорацияВерсияПлатформыРасширеннаяПодсказка" id="97"/>
+										</LabelDecoration>
+										<LabelDecoration name="ДекорацияКонфигурация" id="101">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Декорация конфигурация</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДекорацияКонфигурацияКонтекстноеМеню" id="102"/>
+											<ExtendedTooltip name="ДекорацияКонфигурацияРасширеннаяПодсказка" id="103"/>
+										</LabelDecoration>
+										<LabelDecoration name="ДекорацияВерсияБСП" id="90">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Версия БСП</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДекорацияВерсияБСПКонтекстноеМеню" id="91"/>
+											<ExtendedTooltip name="ДекорацияВерсияБСПРасширеннаяПодсказка" id="92"/>
+										</LabelDecoration>
+										<LabelDecoration name="ДекорацияТипПлатформыСервер" id="106">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Тип платформы (сервер)</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДекорацияТипПлатформыСерверКонтекстноеМеню" id="107"/>
+											<ExtendedTooltip name="ДекорацияТипПлатформыСерверРасширеннаяПодсказка" id="108"/>
+										</LabelDecoration>
+										<LabelDecoration name="ДекорацияТипПлатформыКлиент" id="109">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Тип платформы (клиент)</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДекорацияТипПлатформыКлиентКонтекстноеМеню" id="110"/>
+											<ExtendedTooltip name="ДекорацияТипПлатформыКлиентРасширеннаяПодсказка" id="111"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаОбработки" id="112">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обработки</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа обработки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>NormalSeparation</Representation>
+									<ExtendedTooltip name="ГруппаОбработкиРасширеннаяПодсказка" id="113"/>
+									<ChildItems>
+										<Button name="ОткрытьКонсольЗапросов" id="114">
+											<Type>Hyperlink</Type>
+											<CommandName>Form.Command.ОткрытьКонсольЗапросов</CommandName>
+											<ExtendedTooltip name="ОткрытьКонсольЗапросовРасширеннаяПодсказка" id="115"/>
+										</Button>
+										<Button name="ОткрытьГрупповоеИзменениеРеквизитов" id="171">
+											<Type>Hyperlink</Type>
+											<CommandName>Form.Command.ОткрытьГрупповоеИзменениеРеквизитов</CommandName>
+											<ExtendedTooltip name="ОткрытьГрупповоеИзменениеРеквизитовРасширеннаяПодсказка" id="172"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаОтчеты" id="180">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отчеты</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отчеты</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Representation>NormalSeparation</Representation>
+									<ExtendedTooltip name="ГруппаОтчетыРасширеннаяПодсказка" id="181"/>
+									<ChildItems>
+										<Button name="ОткрытьАнализЖурналаРегистрации" id="182">
+											<Type>Hyperlink</Type>
+											<CommandName>Form.Command.ОткрытьАнализЖурналаРегистрации</CommandName>
+											<ExtendedTooltip name="ОткрытьАнализЖурналаРегистрацииРасширеннаяПодсказка" id="183"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаМониторингПраво" id="198">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа мониторинг право</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа мониторинг право</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаМониторингПравоРасширеннаяПодсказка" id="199"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаGUID" id="200">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Получить GUID по ссылке</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа обработки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Representation>NormalSeparation</Representation>
+									<ExtendedTooltip name="ГруппаGUIDРасширеннаяПодсказка" id="201"/>
+									<ChildItems>
+										<InputField name="ПолучитьГУИДПоСсылке_Ссылка" id="208">
+											<DataPath>ПолучитьГУИДПоСсылке_Ссылка</DataPath>
+											<ContextMenu name="ПолучитьГУИДПоСсылке_СсылкаКонтекстноеМеню" id="209"/>
+											<ExtendedTooltip name="ПолучитьГУИДПоСсылке_СсылкаРасширеннаяПодсказка" id="210"/>
+										</InputField>
+										<Button name="ПолучитьГУИДПоСсылке" id="211">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ПолучитьГУИДПоСсылке</CommandName>
+											<ExtendedTooltip name="ПолучитьГУИДПоСсылкеРасширеннаяПодсказка" id="212"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаНастройкаПрав" id="15">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройка прав</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа настройка прав</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ГруппаНастройкаПравРасширеннаяПодсказка" id="16"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаНастройкаПравЛево" id="213">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройка прав лево</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройка прав лево</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкаПравЛевоРасширеннаяПодсказка" id="214"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаОграниченияДоступа" id="1">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ограничения доступа</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа ограничения доступа</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>NormalSeparation</Representation>
+									<ExtendedTooltip name="ГруппаОграниченияДоступаРасширеннаяПодсказка" id="2"/>
+									<ChildItems>
+										<Button name="СправочникИдентификаторыОбъектовМетаданных" id="3">
+											<Type>Hyperlink</Type>
+											<CommandName>Form.Command.СправочникИдентификаторыОбъектовМетаданных</CommandName>
+											<ExtendedTooltip name="СправочникИдентификаторыОбъектовМетаданныхРасширеннаяПодсказка" id="4"/>
+										</Button>
+										<Button name="ОткрытьОбновлениеВспомогательныхДанных" id="104">
+											<Type>Hyperlink</Type>
+											<CommandName>Form.Command.ОткрытьОбновлениеВспомогательныхДанных</CommandName>
+											<ExtendedTooltip name="ОткрытьОбновлениеВспомогательныхДанныхРасширеннаяПодсказка" id="105"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаНастройкаПравОтчеты" id="219">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отчеты</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отчеты</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>NormalSeparation</Representation>
+									<ExtendedTooltip name="ГруппаНастройкаПравОтчетыРасширеннаяПодсказка" id="220"/>
+									<ChildItems>
+										<Button name="ОткрытьанализПравДоступа" id="217">
+											<Type>Hyperlink</Type>
+											<CommandName>Form.Command.ОткрытьанализПравДоступа</CommandName>
+											<ExtendedTooltip name="ОткрытьанализПравДоступаРасширеннаяПодсказка" id="218"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНастройкаПравПраво" id="215">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройка прав право</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройка прав право</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкаПравПравоРасширеннаяПодсказка" id="216"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаРоли" id="173">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Роли</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа роли</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Representation>NormalSeparation</Representation>
+									<ExtendedTooltip name="ГруппаРолиРасширеннаяПодсказка" id="174"/>
+									<ChildItems>
+										<InputField name="ГруппаРоли_Роль" id="175">
+											<DataPath>ГруппаРоли_Роль</DataPath>
+											<ContextMenu name="ГруппаРоли_РольКонтекстноеМеню" id="176"/>
+											<ExtendedTooltip name="ГруппаРоли_РольРасширеннаяПодсказка" id="177"/>
+										</InputField>
+										<Button name="ГруппаРоли_КомуНазначенаРоль" id="178">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ГруппаРоли_КомуНазначенаРоль</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Кому назначена?</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ГруппаРоли_КомуНазначенаРольРасширеннаяПодсказка" id="179"/>
+										</Button>
+										<Button name="ГруппаРоли_КакимПрофилямНазначенаРоль" id="184">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ГруппаРоли_КакимПрофилямНазначенаРоль</CommandName>
+											<ExtendedTooltip name="ГруппаРоли_КакимПрофилямНазначенаРольРасширеннаяПодсказка" id="185"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаМаркировка" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Маркировка</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа маркировка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаМаркировкаРасширеннаяПодсказка" id="8"/>
+					<ChildItems>
+						<Pages name="Группа2" id="9">
+							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="10"/>
+							<ChildItems>
+								<Page name="ГруппаМаркировкаОшибкиМаркировки" id="273">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Журнал ошибок маркировок</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа маркировка ошибки маркировки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ГруппаМаркировкаОшибкиМаркировкиРасширеннаяПодсказка" id="274"/>
+									<ChildItems>
+										<Table name="ЖурналОшибокМаркировок" id="236">
+											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<EnableStartDrag>true</EnableStartDrag>
+											<DataPath>ЖурналОшибокМаркировок</DataPath>
+											<RowPictureDataPath>ЖурналОшибокМаркировок.DefaultPicture</RowPictureDataPath>
+											<AutoRefresh>false</AutoRefresh>
+											<AutoRefreshPeriod>60</AutoRefreshPeriod>
+											<Period>
+												<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+												<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+												<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+											</Period>
+											<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+											<RestoreCurrentRow>false</RestoreCurrentRow>
+											<TopLevelParent xsi:nil="true"/>
+											<ShowRoot>true</ShowRoot>
+											<AllowRootChoice>false</AllowRootChoice>
+											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<ContextMenu name="ЖурналОшибокМаркировокКонтекстноеМеню" id="237"/>
+											<AutoCommandBar name="ЖурналОшибокМаркировокКоманднаяПанель" id="238">
+												<Autofill>false</Autofill>
+											</AutoCommandBar>
+											<ExtendedTooltip name="ЖурналОшибокМаркировокРасширеннаяПодсказка" id="239"/>
+											<SearchStringAddition name="ЖурналОшибокМаркировокСтрокаПоиска" id="240">
+												<AdditionSource>
+													<Item>ЖурналОшибокМаркировок</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ЖурналОшибокМаркировокСтрокаПоискаКонтекстноеМеню" id="241"/>
+												<ExtendedTooltip name="ЖурналОшибокМаркировокСтрокаПоискаРасширеннаяПодсказка" id="242"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ЖурналОшибокМаркировокСостояниеПросмотра" id="243">
+												<AdditionSource>
+													<Item>ЖурналОшибокМаркировок</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ЖурналОшибокМаркировокСостояниеПросмотраКонтекстноеМеню" id="244"/>
+												<ExtendedTooltip name="ЖурналОшибокМаркировокСостояниеПросмотраРасширеннаяПодсказка" id="245"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ЖурналОшибокМаркировокУправлениеПоиском" id="246">
+												<AdditionSource>
+													<Item>ЖурналОшибокМаркировок</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ЖурналОшибокМаркировокУправлениеПоискомКонтекстноеМеню" id="247"/>
+												<ExtendedTooltip name="ЖурналОшибокМаркировокУправлениеПоискомРасширеннаяПодсказка" id="248"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="ЖурналОшибокМаркировокДата" id="255">
+													<DataPath>~ЖурналОшибокМаркировок.Дата</DataPath>
+													<ContextMenu name="ЖурналОшибокМаркировокДатаКонтекстноеМеню" id="256"/>
+													<ExtendedTooltip name="ЖурналОшибокМаркировокДатаРасширеннаяПодсказка" id="257"/>
+												</LabelField>
+												<LabelField name="ЖурналОшибокМаркировокОбъект" id="258">
+													<DataPath>~ЖурналОшибокМаркировок.Объект</DataPath>
+													<ContextMenu name="ЖурналОшибокМаркировокОбъектКонтекстноеМеню" id="259"/>
+													<ExtendedTooltip name="ЖурналОшибокМаркировокОбъектРасширеннаяПодсказка" id="260"/>
+												</LabelField>
+												<LabelField name="ЖурналОшибокМаркировокПозиция" id="261">
+													<DataPath>~ЖурналОшибокМаркировок.Позиция</DataPath>
+													<ContextMenu name="ЖурналОшибокМаркировокПозицияКонтекстноеМеню" id="262"/>
+													<ExtendedTooltip name="ЖурналОшибокМаркировокПозицияРасширеннаяПодсказка" id="263"/>
+												</LabelField>
+												<LabelField name="ЖурналОшибокМаркировокТекстОшибки" id="264">
+													<DataPath>~ЖурналОшибокМаркировок.ТекстОшибки</DataPath>
+													<ContextMenu name="ЖурналОшибокМаркировокТекстОшибкиКонтекстноеМеню" id="265"/>
+													<ExtendedTooltip name="ЖурналОшибокМаркировокТекстОшибкиРасширеннаяПодсказка" id="266"/>
+												</LabelField>
+												<LabelField name="ЖурналОшибокМаркировокДопИнформация" id="267">
+													<DataPath>~ЖурналОшибокМаркировок.ДопИнформация</DataPath>
+													<ContextMenu name="ЖурналОшибокМаркировокДопИнформацияКонтекстноеМеню" id="268"/>
+													<ExtendedTooltip name="ЖурналОшибокМаркировокДопИнформацияРасширеннаяПодсказка" id="269"/>
+												</LabelField>
+												<LabelField name="ЖурналОшибокМаркировокПользователь" id="270">
+													<DataPath>~ЖурналОшибокМаркировок.Пользователь</DataPath>
+													<ContextMenu name="ЖурналОшибокМаркировокПользовательКонтекстноеМеню" id="271"/>
+													<ExtendedTooltip name="ЖурналОшибокМаркировокПользовательРасширеннаяПодсказка" id="272"/>
+												</LabelField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+								<Page name="ГруппаНеверныеАгрегации" id="11">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ошибки в агрегациях</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа неверные агрегации</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ГруппаНеверныеАгрегацииРасширеннаяПодсказка" id="12"/>
+									<ChildItems>
+										<Table name="ТЗ_ОшибкиВАгрегациях" id="17">
+											<Representation>List</Representation>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>ТЗ_ОшибкиВАгрегациях</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="ТЗ_ОшибкиВАгрегацияхКонтекстноеМеню" id="18"/>
+											<AutoCommandBar name="ТЗ_ОшибкиВАгрегацияхКоманднаяПанель" id="19">
+												<Autofill>false</Autofill>
+												<ChildItems>
+													<ButtonGroup name="ТЗ_ОшибкиВАгрегацияхГруппаЗаполнить" id="47">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Т з ошибки в агрегациях группа заполнить</v8:content>
+															</v8:item>
+														</Title>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Т з ошибки в агрегациях группа заполнить</v8:content>
+															</v8:item>
+														</ToolTip>
+														<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхГруппаЗаполнитьРасширеннаяПодсказка" id="48"/>
+														<ChildItems>
+															<Button name="ТЗ_ОшибкиВАгрегацияхЗаполнить_ОшибкиВАгрегациях" id="45">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ОшибкиВАгрегациях_Заполнить</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Заполнить</v8:content>
+																	</v8:item>
+																</Title>
+																<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхЗаполнить_ОшибкиВАгрегацияхРасширеннаяПодсказка" id="46"/>
+															</Button>
+														</ChildItems>
+													</ButtonGroup>
+													<ButtonGroup name="ТЗ_ОшибкиВАгрегацияхГруппаВыделение" id="75">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Т з ошибки в агрегациях группа выделение</v8:content>
+															</v8:item>
+														</Title>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Т з ошибки в агрегациях группа выделение</v8:content>
+															</v8:item>
+														</ToolTip>
+														<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхГруппаВыделениеРасширеннаяПодсказка" id="76"/>
+														<ChildItems>
+															<Button name="ТЗ_ОшибкиВАгрегацияхОшибкиВАгрегациях_ВыделитьВсе" id="71">
+																<Type>CommandBarButton</Type>
+																<Representation>Picture</Representation>
+																<CommandName>Form.Command.ОшибкиВАгрегациях_ВыделитьВсе</CommandName>
+																<Picture>
+																	<xr:Ref>StdPicture.CheckAll</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхОшибкиВАгрегациях_ВыделитьВсеРасширеннаяПодсказка" id="72"/>
+															</Button>
+															<Button name="ТЗ_ОшибкиВАгрегацияхОшибкиВАгрегации_СнятьВыделение" id="73">
+																<Type>CommandBarButton</Type>
+																<Representation>Picture</Representation>
+																<CommandName>Form.Command.ОшибкиВАгрегации_СнятьВыделение</CommandName>
+																<Picture>
+																	<xr:Ref>StdPicture.UncheckAll</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхОшибкиВАгрегации_СнятьВыделениеРасширеннаяПодсказка" id="74"/>
+															</Button>
+														</ChildItems>
+													</ButtonGroup>
+													<Popup name="ТЗ_ОшибкиВАгрегацияхГруппаУдаление" id="51">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Пометка на удаление</v8:content>
+															</v8:item>
+														</Title>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Т з ошибки в агрегациях группа удаление</v8:content>
+															</v8:item>
+														</ToolTip>
+														<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхГруппаУдалениеРасширеннаяПодсказка" id="52"/>
+														<ChildItems>
+															<Button name="ПометитьНаУдалениеОшибочные" id="13">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ОшибкиВАгрегациях_ПометитьНаУдаление</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Установить пометку на удаление</v8:content>
+																	</v8:item>
+																</Title>
+																<ExtendedTooltip name="ПометитьНаУдалениеОшибочныеРасширеннаяПодсказка" id="14"/>
+															</Button>
+															<Button name="ТЗ_ОшибкиВАгрегацияхОшибкиВАгрегациях_СнятьПометкуНаУдаление" id="49">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ОшибкиВАгрегациях_СнятьПометкуНаУдаление</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Снять пометку на удаление</v8:content>
+																	</v8:item>
+																</Title>
+																<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхОшибкиВАгрегациях_СнятьПометкуНаУдалениеРасширеннаяПодсказка" id="50"/>
+															</Button>
+														</ChildItems>
+													</Popup>
+													<Popup name="ТЗ_ОшибкиВАгрегацияхГруппаОбработать" id="53">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Действия</v8:content>
+															</v8:item>
+														</Title>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Т з ошибки в агрегациях группа обработать</v8:content>
+															</v8:item>
+														</ToolTip>
+														<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхГруппаОбработатьРасширеннаяПодсказка" id="54"/>
+														<ChildItems>
+															<Button name="ТЗ_ОшибкиВАгрегацияхОшибкиВАгрегациях_ЗаполнитьКМСправочникаНаОснованииРегистра" id="55">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ОшибкиВАгрегациях_ЗаполнитьКМСправочникаНаОснованииРегистра</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Спр (КМ) &lt;- Регистр (КМ)</v8:content>
+																	</v8:item>
+																</Title>
+																<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхОшибкиВАгрегациях_ЗаполнитьКМСправочникаНаОснованииРегистраРасширеннаяПодсказка" id="56"/>
+															</Button>
+															<Button name="ТЗ_ОшибкиВАгрегацияхОшибкиВАгрегациях_ЗаполнитьРегистрыКМНаОснованииСправочника" id="85">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ОшибкиВАгрегациях_ЗаполнитьРегистрыКМНаОснованииСправочника</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Спр (КМ) -&gt; Регистр ТА_СоставАгрегации (КМ)</v8:content>
+																	</v8:item>
+																</Title>
+																<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхОшибкиВАгрегациях_ЗаполнитьРегистрыКМНаОснованииСправочникаРасширеннаяПодсказка" id="86"/>
+															</Button>
+															<Button name="ТЗ_ОшибкиВАгрегацияхОшибкиВАгрегациях_СоздатьУпаковку" id="275">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ОшибкиВАгрегациях_СоздатьУпаковку</CommandName>
+																<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхОшибкиВАгрегациях_СоздатьУпаковкуРасширеннаяПодсказка" id="276"/>
+															</Button>
+														</ChildItems>
+													</Popup>
+													<Popup name="ТЗ_ОшибкиВАгрегацияхГруппаОткрыть" id="79">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Открыть</v8:content>
+															</v8:item>
+														</Title>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Т з ошибки в агрегациях группа открыть</v8:content>
+															</v8:item>
+														</ToolTip>
+														<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхГруппаОткрытьРасширеннаяПодсказка" id="80"/>
+														<ChildItems>
+															<Button name="ТЗ_ОшибкиВАгрегацияхОткрытьРегистрШтрихкодыНоменклатуры" id="81">
+																<Type>CommandBarButton</Type>
+																<Representation>PictureAndText</Representation>
+																<CommandName>Form.Command.ОткрытьРегистрШтрихкодыНоменклатуры</CommandName>
+																<Picture>
+																	<xr:Ref>StdPicture.InformationRegister</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Штрихкоды номенклатуры</v8:content>
+																	</v8:item>
+																</Title>
+																<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхОткрытьРегистрШтрихкодыНоменклатурыРасширеннаяПодсказка" id="82"/>
+															</Button>
+															<Button name="ТЗ_ОшибкиВАгрегацияхОткрытьРегистрТА_СоставАгрегации" id="77">
+																<Type>CommandBarButton</Type>
+																<Representation>PictureAndText</Representation>
+																<CommandName>Form.Command.ОткрытьРегистрТА_СоставАгрегации</CommandName>
+																<Picture>
+																	<xr:Ref>StdPicture.InformationRegister</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>(ТА) Состав агрегации</v8:content>
+																	</v8:item>
+																</Title>
+																<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхОткрытьРегистрТА_СоставАгрегацииРасширеннаяПодсказка" id="78"/>
+															</Button>
+															<Button name="ТЗ_ОшибкиВАгрегацияхОткрытьСправочникАСУСИЗ" id="83">
+																<Type>CommandBarButton</Type>
+																<Representation>PictureAndText</Representation>
+																<CommandName>Form.Command.ОткрытьСправочникАСУСИЗ</CommandName>
+																<Picture>
+																	<xr:Ref>StdPicture.Catalog</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>АСУСИЗ</v8:content>
+																	</v8:item>
+																</Title>
+																<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхОткрытьСправочникАСУСИЗРасширеннаяПодсказка" id="84"/>
+															</Button>
+														</ChildItems>
+													</Popup>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхРасширеннаяПодсказка" id="20"/>
+											<SearchStringAddition name="ТЗ_ОшибкиВАгрегацияхСтрокаПоиска" id="21">
+												<AdditionSource>
+													<Item>ТЗ_ОшибкиВАгрегациях</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ТЗ_ОшибкиВАгрегацияхСтрокаПоискаКонтекстноеМеню" id="22"/>
+												<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхСтрокаПоискаРасширеннаяПодсказка" id="23"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ТЗ_ОшибкиВАгрегацияхСостояниеПросмотра" id="24">
+												<AdditionSource>
+													<Item>ТЗ_ОшибкиВАгрегациях</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ТЗ_ОшибкиВАгрегацияхСостояниеПросмотраКонтекстноеМеню" id="25"/>
+												<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхСостояниеПросмотраРасширеннаяПодсказка" id="26"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ТЗ_ОшибкиВАгрегацияхУправлениеПоиском" id="27">
+												<AdditionSource>
+													<Item>ТЗ_ОшибкиВАгрегациях</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ТЗ_ОшибкиВАгрегацияхУправлениеПоискомКонтекстноеМеню" id="28"/>
+												<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхУправлениеПоискомРасширеннаяПодсказка" id="29"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<CheckBoxField name="ТЗ_ОшибкиВАгрегацияхВыбрано" id="42">
+													<DataPath>ТЗ_ОшибкиВАгрегациях.Выбрано</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ТЗ_ОшибкиВАгрегацияхВыбраноКонтекстноеМеню" id="43"/>
+													<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхВыбраноРасширеннаяПодсказка" id="44"/>
+												</CheckBoxField>
+												<InputField name="ТЗ_ОшибкиВАгрегацияхСсылка" id="30">
+													<DataPath>ТЗ_ОшибкиВАгрегациях.Ссылка</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТЗ_ОшибкиВАгрегацияхСсылкаКонтекстноеМеню" id="31"/>
+													<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхСсылкаРасширеннаяПодсказка" id="32"/>
+												</InputField>
+												<InputField name="ТЗ_ОшибкиВАгрегацияхШтрихкодДляПоиска" id="33">
+													<DataPath>ТЗ_ОшибкиВАгрегациях.ШтрихкодДляПоиска</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТЗ_ОшибкиВАгрегацияхШтрихкодДляПоискаКонтекстноеМеню" id="34"/>
+													<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхШтрихкодДляПоискаРасширеннаяПодсказка" id="35"/>
+												</InputField>
+												<InputField name="ТЗ_ОшибкиВАгрегацияхКоличествоУпаковки" id="36">
+													<DataPath>ТЗ_ОшибкиВАгрегациях.КоличествоУпаковки</DataPath>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Количество записей в справочнике Штрихкоды упаковок и товаров</v8:content>
+														</v8:item>
+													</ToolTip>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТЗ_ОшибкиВАгрегацияхКоличествоУпаковкиКонтекстноеМеню" id="37"/>
+													<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхКоличествоУпаковкиРасширеннаяПодсказка" id="38"/>
+												</InputField>
+												<InputField name="ТЗ_ОшибкиВАгрегацияхРегистрШК_Количество" id="39">
+													<DataPath>ТЗ_ОшибкиВАгрегациях.РегистрШК_Количество</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТЗ_ОшибкиВАгрегацияхРегистрШК_КоличествоКонтекстноеМеню" id="40"/>
+													<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхРегистрШК_КоличествоРасширеннаяПодсказка" id="41"/>
+												</InputField>
+												<InputField name="ТЗ_ОшибкиВАгрегацияхКоличествоТА_Агрегации" id="59">
+													<DataPath>ТЗ_ОшибкиВАгрегациях.КоличествоТА_Агрегации</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Количество (ТА_СоставАгрегации)</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="ТЗ_ОшибкиВАгрегацияхКоличествоТА_АгрегацииКонтекстноеМеню" id="60"/>
+													<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхКоличествоТА_АгрегацииРасширеннаяПодсказка" id="61"/>
+												</InputField>
+												<InputField name="ТЗ_ОшибкиВАгрегацияхКоличествоАСУСИЗ" id="68">
+													<DataPath>ТЗ_ОшибкиВАгрегациях.КоличествоАСУСИЗ</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТЗ_ОшибкиВАгрегацияхКоличествоАСУСИЗКонтекстноеМеню" id="69"/>
+													<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхКоличествоАСУСИЗРасширеннаяПодсказка" id="70"/>
+												</InputField>
+												<InputField name="ТЗ_ОшибкиВАгрегацияхРегистрШК_Упаковка" id="62">
+													<DataPath>ТЗ_ОшибкиВАгрегациях.РегистрШК_Упаковка</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТЗ_ОшибкиВАгрегацияхРегистрШК_УпаковкаКонтекстноеМеню" id="63"/>
+													<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхРегистрШК_УпаковкаРасширеннаяПодсказка" id="64"/>
+												</InputField>
+												<CheckBoxField name="ТЗ_ОшибкиВАгрегацияхРегистрШК_ТА_Агрегация" id="65">
+													<DataPath>ТЗ_ОшибкиВАгрегациях.РегистрШК_ТА_Агрегация</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ТЗ_ОшибкиВАгрегацияхРегистрШК_ТА_АгрегацияКонтекстноеМеню" id="66"/>
+													<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхРегистрШК_ТА_АгрегацияРасширеннаяПодсказка" id="67"/>
+												</CheckBoxField>
+												<InputField name="ТЗ_ОшибкиВАгрегацияхОписаниеОшибки" id="186">
+													<DataPath>ТЗ_ОшибкиВАгрегациях.ОписаниеОшибки</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТЗ_ОшибкиВАгрегацияхОписаниеОшибкиКонтекстноеМеню" id="187"/>
+													<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхОписаниеОшибкиРасширеннаяПодсказка" id="188"/>
+												</InputField>
+												<InputField name="ТЗ_ОшибкиВАгрегацияхДокументПоступления" id="87">
+													<DataPath>ТЗ_ОшибкиВАгрегациях.ДокументПоступления</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТЗ_ОшибкиВАгрегацияхДокументПоступленияКонтекстноеМеню" id="88"/>
+													<ExtendedTooltip name="ТЗ_ОшибкиВАгрегацияхДокументПоступленияРасширеннаяПодсказка" id="89"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+										<UsualGroup name="Группа4" id="169">
+											<Representation>StrongSeparation</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="170"/>
+											<ChildItems>
+												<LabelDecoration name="Декорация1" id="116">
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>(!) Добавить проверки: 1. Пустая строка в КМ влож 2. Агрегации в  поступлении, но нет в 1С 3. Задвоенные строки 4. Пустые строки 5. Поступления? 6. Нет упаковок в номенклатуре, в регистре ШК не заполнена ед.изм. 7. В регистре состав агрегации КМ со скобками или без??</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="Декорация1КонтекстноеМеню" id="117"/>
+													<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="118"/>
+												</LabelDecoration>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаНСИ" id="119">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>НСИ</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа НСИ</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
+					<ExtendedTooltip name="ГруппаНСИРасширеннаяПодсказка" id="120"/>
+					<ChildItems>
+						<Pages name="Группа3" id="165">
+							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="166"/>
+							<ChildItems>
+								<Page name="ГруппаОшибкиНСИ" id="167">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ошибки в НСИ</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа ошибки НСИ</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ГруппаОшибкиНСИРасширеннаяПодсказка" id="168"/>
+									<ChildItems>
+										<Table name="ТЗ_ОшибкиНСИ" id="124">
+											<Representation>List</Representation>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>ТЗ_ОшибкиНСИ</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="ТЗ_ОшибкиНСИКонтекстноеМеню" id="125"/>
+											<AutoCommandBar name="ТЗ_ОшибкиНСИКоманднаяПанель" id="126">
+												<Autofill>false</Autofill>
+												<ChildItems>
+													<Button name="ТЗ_ОшибкиНСИОшибкиНСИ_Заполнить" id="149">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ОшибкиНСИ_Заполнить</CommandName>
+														<ExtendedTooltip name="ТЗ_ОшибкиНСИОшибкиНСИ_ЗаполнитьРасширеннаяПодсказка" id="150"/>
+													</Button>
+													<ButtonGroup name="ТЗ_ОшибкиНСИГруппаВыделение" id="154">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Т з ошибки НСИ группа выделение</v8:content>
+															</v8:item>
+														</Title>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Т з ошибки в агрегациях группа выделение</v8:content>
+															</v8:item>
+														</ToolTip>
+														<ExtendedTooltip name="ТЗ_ОшибкиНСИГруппаВыделениеРасширеннаяПодсказка" id="155"/>
+														<ChildItems>
+															<Button name="ТЗ_ОшибкиНСИ_ВыделитьВсе" id="156">
+																<Type>CommandBarButton</Type>
+																<Representation>Picture</Representation>
+																<CommandName>Form.Command.ОшибкиНСИ_ВыделитьВсе</CommandName>
+																<Picture>
+																	<xr:Ref>StdPicture.CheckAll</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<ExtendedTooltip name="ТЗ_ОшибкиНСИ_ВыделитьВсеРасширеннаяПодсказка" id="157"/>
+															</Button>
+															<Button name="ТЗ_ОшибкиНСИ_СнятьВыделение" id="158">
+																<Type>CommandBarButton</Type>
+																<Representation>Picture</Representation>
+																<CommandName>Form.Command.ОшибкиНСИ_СнятьВыделение</CommandName>
+																<Picture>
+																	<xr:Ref>StdPicture.UncheckAll</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<ExtendedTooltip name="ТЗ_ОшибкиНСИ_СнятьВыделениеРасширеннаяПодсказка" id="159"/>
+															</Button>
+														</ChildItems>
+													</ButtonGroup>
+													<Button name="ТЗ_ОшибкиНСИОшибкиНСИ_ИсправитьФлагВестиУчетПоГТД" id="160">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ОшибкиНСИ_ИсправитьФлагВестиУчетПоГТД</CommandName>
+														<ExtendedTooltip name="ТЗ_ОшибкиНСИОшибкиНСИ_ИсправитьФлагВестиУчетПоГТДРасширеннаяПодсказка" id="161"/>
+													</Button>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="ТЗ_ОшибкиНСИРасширеннаяПодсказка" id="127"/>
+											<SearchStringAddition name="ТЗ_ОшибкиНСИСтрокаПоиска" id="128">
+												<AdditionSource>
+													<Item>ТЗ_ОшибкиНСИ</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ТЗ_ОшибкиНСИСтрокаПоискаКонтекстноеМеню" id="129"/>
+												<ExtendedTooltip name="ТЗ_ОшибкиНСИСтрокаПоискаРасширеннаяПодсказка" id="130"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ТЗ_ОшибкиНСИСостояниеПросмотра" id="131">
+												<AdditionSource>
+													<Item>ТЗ_ОшибкиНСИ</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ТЗ_ОшибкиНСИСостояниеПросмотраКонтекстноеМеню" id="132"/>
+												<ExtendedTooltip name="ТЗ_ОшибкиНСИСостояниеПросмотраРасширеннаяПодсказка" id="133"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ТЗ_ОшибкиНСИУправлениеПоиском" id="134">
+												<AdditionSource>
+													<Item>ТЗ_ОшибкиНСИ</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ТЗ_ОшибкиНСИУправлениеПоискомКонтекстноеМеню" id="135"/>
+												<ExtendedTooltip name="ТЗ_ОшибкиНСИУправлениеПоискомРасширеннаяПодсказка" id="136"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<CheckBoxField name="ТЗ_ОшибкиНСИВыбрано" id="151">
+													<DataPath>ТЗ_ОшибкиНСИ.Выбрано</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ТЗ_ОшибкиНСИВыбраноКонтекстноеМеню" id="152"/>
+													<ExtendedTooltip name="ТЗ_ОшибкиНСИВыбраноРасширеннаяПодсказка" id="153"/>
+												</CheckBoxField>
+												<InputField name="ТЗ_ОшибкиНСИАртикул" id="137">
+													<DataPath>ТЗ_ОшибкиНСИ.Артикул</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТЗ_ОшибкиНСИАртикулКонтекстноеМеню" id="138"/>
+													<ExtendedTooltip name="ТЗ_ОшибкиНСИАртикулРасширеннаяПодсказка" id="139"/>
+												</InputField>
+												<InputField name="ТЗ_ОшибкиНСИНоменклатура" id="140">
+													<DataPath>ТЗ_ОшибкиНСИ.Номенклатура</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТЗ_ОшибкиНСИНоменклатураКонтекстноеМеню" id="141"/>
+													<ExtendedTooltip name="ТЗ_ОшибкиНСИНоменклатураРасширеннаяПодсказка" id="142"/>
+												</InputField>
+												<CheckBoxField name="ТЗ_ОшибкиНСИВестиУчетПоГТД" id="143">
+													<DataPath>ТЗ_ОшибкиНСИ.ВестиУчетПоГТД</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ТЗ_ОшибкиНСИВестиУчетПоГТДКонтекстноеМеню" id="144"/>
+													<ExtendedTooltip name="ТЗ_ОшибкиНСИВестиУчетПоГТДРасширеннаяПодсказка" id="145"/>
+												</CheckBoxField>
+												<InputField name="ТЗ_ОшибкиНСИСтранаПроисхождения" id="146">
+													<DataPath>ТЗ_ОшибкиНСИ.СтранаПроисхождения</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТЗ_ОшибкиНСИСтранаПроисхожденияКонтекстноеМеню" id="147"/>
+													<ExtendedTooltip name="ТЗ_ОшибкиНСИСтранаПроисхожденияРасширеннаяПодсказка" id="148"/>
+												</InputField>
+												<InputField name="ТЗ_ОшибкиНСИОписаниеОшибки" id="162">
+													<DataPath>ТЗ_ОшибкиНСИ.ОписаниеОшибки</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТЗ_ОшибкиНСИОписаниеОшибкиКонтекстноеМеню" id="163"/>
+													<ExtendedTooltip name="ТЗ_ОшибкиНСИОписаниеОшибкиРасширеннаяПодсказка" id="164"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаСебестоимость" id="277">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расчет себестоимости</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа себестоимость</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаСебестоимостьРасширеннаяПодсказка" id="278"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаСебестоимостьРегистры" id="279">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Регистры</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа отчеты</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>NormalSeparation</Representation>
+							<ExtendedTooltip name="ГруппаСебестоимостьРегистрыРасширеннаяПодсказка" id="280"/>
+							<ChildItems>
+								<Button name="ОткрытьЗаданияКРасчетуСебестоимости" id="281">
+									<Type>Hyperlink</Type>
+									<CommandName>Form.Command.ОткрытьЗаданияКРасчетуСебестоимости</CommandName>
+									<ExtendedTooltip name="ОткрытьЗаданияКРасчетуСебестоимостиРасширеннаяПодсказка" id="282"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.вв_АдминистрированиеСистемы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТЗ_ОшибкиВАгрегациях" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Т з ошибки в агрегациях</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Ссылка" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ссылка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ШтрихкодыУпаковокТоваров</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ШтрихкодДляПоиска" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Штрихкод для поиска</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="КоличествоУпаковки" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество упаковки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="РегистрШК_Количество" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регистр ШК количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Выбрано" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выбрано</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="КоличествоТА_Агрегации" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество т а агрегации</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="РегистрШК_Упаковка" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регистр ШК упаковка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
+					</Type>
+				</Column>
+				<Column name="РегистрШК_ТА_Агрегация" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регистр ШК ТА_Агрегация</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="КоличествоАСУСИЗ" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество АСУСИЗ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ДокументПоступления" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документ поступления</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ПриобретениеТоваровУслуг</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ОписаниеОшибки" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание ошибки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ТЗ_ОшибкиНСИ" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Т з ошибки НСИ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Артикул" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Артикул</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Номенклатура" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ВестиУчетПоГТД" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вести учет по ГТД</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="СтранаПроисхождения" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страна происхождения</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтраныМира</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Выбрано" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выбрано</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ОписаниеОшибки" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание ошибки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ГруппаРоли_Роль" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Роль</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПолучитьГУИДПоСсылке_Ссылка" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+			</Type>
+		</Attribute>
+		<Attribute name="ЖурналОшибокМаркировок" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Журнал ошибок маркировок</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>1:55ef461e-a564-4324-a61f-177fd3b51f11</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Период</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СправочникИдентификаторыОбъектовМетаданных" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификаторы объектов метаданных</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справочник идентификаторы объектов метаданных</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СправочникИдентификаторыОбъектовМетаданных</Action>
+		</Command>
+		<Command name="ОшибкиВАгрегациях_ПометитьНаУдаление" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки в агрегациях пометить на удаление</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки в агрегациях пометить на удаление</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОшибкиВАгрегациях_ПометитьНаУдаление</Action>
+		</Command>
+		<Command name="ОшибкиВАгрегациях_Заполнить" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки в агрегациях заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки в агрегациях заполнить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОшибкиВАгрегациях_Заполнить</Action>
+		</Command>
+		<Command name="ОшибкиВАгрегациях_СнятьПометкуНаУдаление" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки в агрегациях снять пометку на удаление</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки в агрегациях снять пометку на удаление</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОшибкиВАгрегациях_СнятьПометкуНаУдаление</Action>
+		</Command>
+		<Command name="ОшибкиВАгрегациях_ЗаполнитьКМСправочникаНаОснованииРегистра" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Берем коды маркировки из регистра ТА_СоставАгрегации и полностью заменяем ТЧ ВложенныеШтрихкоды в справочнике ШтрихкодыУпаковок</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки в агрегациях заполнить КМСправочника на основании регистра</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОшибкиВАгрегациях_ЗаполнитьКМСправочникаНаОснованииРегистра</Action>
+		</Command>
+		<Command name="ОшибкиВАгрегациях_ВыделитьВсе" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки в агрегациях выделить все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки в агрегациях (отметить выделенное)</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОшибкиВАгрегациях_ВыделитьВсе</Action>
+		</Command>
+		<Command name="ОшибкиВАгрегации_СнятьВыделение" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки в агрегации снять выделение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки в агрегации снять выделение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОшибкиВАгрегации_СнятьВыделение</Action>
+		</Command>
+		<Command name="ОткрытьРегистрТА_СоставАгрегации" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть регистр ТА_СоставАгрегации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть регистр т а состав агрегации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьРегистрТА_СоставАгрегации</Action>
+		</Command>
+		<Command name="ОткрытьРегистрШтрихкодыНоменклатуры" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть регистр штрихкоды номенклатуры</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть регистр штрихкоды номенклатуры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьРегистрШтрихкодыНоменклатуры</Action>
+		</Command>
+		<Command name="ОткрытьСправочникАСУСИЗ" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть справочник АСУСИЗ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть справочник АСУСИЗ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьСправочникАСУСИЗ</Action>
+		</Command>
+		<Command name="ОшибкиВАгрегациях_ЗаполнитьРегистрыКМНаОснованииСправочника" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Берем коды маркировки из справочника ШтрихкодыУпаковок и полностью заменяем строки в регистре сведений ТА_СоставАгрегации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки в агрегациях заполнить регистры КМНа основании справочника</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОшибкиВАгрегациях_ЗаполнитьРегистрыКМНаОснованииСправочника</Action>
+		</Command>
+		<Command name="ОткрытьОбновлениеВспомогательныхДанных" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновление вспомогательных данных</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть обновление вспомогательных данных</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьОбновлениеВспомогательныхДанных</Action>
+		</Command>
+		<Command name="ОткрытьКонсольЗапросов" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Консоль запросов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть консоль запросов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьКонсольЗапросов</Action>
+		</Command>
+		<Command name="ОшибкиНСИ_Заполнить" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки НСИ заполнить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОшибкиНСИ_Заполнить</Action>
+		</Command>
+		<Command name="ОшибкиНСИ_ВыделитьВсе" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки НСИ выделить все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки НСИ (отметить выделенное)</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОшибкиНСИ_ВыделитьВсе</Action>
+		</Command>
+		<Command name="ОшибкиНСИ_СнятьВыделение" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки НСИ снять выделение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки НСИ снять выделение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОшибкиНСИ_СнятьВыделение</Action>
+		</Command>
+		<Command name="ОшибкиНСИ_ИсправитьФлагВестиУчетПоГТД" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исправить флаг вести учет по ГТД</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки НСИ исправить флаг вести учет по ГТД</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОшибкиНСИ_ИсправитьФлагВестиУчетПоГТД</Action>
+		</Command>
+		<Command name="ОткрытьГрупповоеИзменениеРеквизитов" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Групповое изменение реквизитов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть групповое изменение реквизитов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьГрупповоеИзменениеРеквизитов</Action>
+		</Command>
+		<Command name="ГруппаРоли_КомуНазначенаРоль" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа роли кому назначена роль</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа роли кому назначена роль</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ГруппаРоли_КомуНазначенаРоль</Action>
+		</Command>
+		<Command name="ОткрытьАнализЖурналаРегистрации" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контроль журнала регистрации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть анализ журнала регистрации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьАнализЖурналаРегистрации</Action>
+		</Command>
+		<Command name="ГруппаРоли_КакимПрофилямНазначенаРоль" id="21">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Каким профилям?</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа роли каким профилям назначена роль</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ГруппаРоли_КакимПрофилямНазначенаРоль</Action>
+		</Command>
+		<Command name="ПолучитьГУИДПоСсылке" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить ГУИДПо ссылке</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьГУИДПоСсылке</Action>
+		</Command>
+		<Command name="ОткрытьанализПравДоступа" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Анализ прав доступа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открытьанализ прав доступа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьанализПравДоступа</Action>
+		</Command>
+		<Command name="ОшибкиВАгрегациях_СоздатьУпаковку" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать индивидуальную упаковку номенклатуры</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки в агрегациях создать упаковку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОшибкиВАгрегациях_СоздатьУпаковку</Action>
+		</Command>
+		<Command name="ОткрытьЗаданияКРасчетуСебестоимости" id="25">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задания к расчету себестоимости</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть задания к расчету себестоимости</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьЗаданияКРасчетуСебестоимости</Action>
+		</Command>
+	</Commands>
+</Form>
